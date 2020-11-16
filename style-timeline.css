@@ -1,0 +1,172 @@
+h2,
+p,
+small {
+  transition: all 0.5s ease-in-out;
+}
+
+.timeline-wrapper-left {
+  width: 49%;
+}
+
+.timeline-wrapper-right {
+  width: 49%;
+}
+
+#timeline {
+  height: auto;
+  display: flex;
+  width: 80%;
+  position: relative;
+}
+
+.timeline-line {
+  width: 75px;
+  height: auto;
+}
+
+.timeline-content {
+  width: 85%;
+  height: auto;
+}
+
+.timeline-icon {
+  background: #3f3d56;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.timeline-line-left {
+  width: 52%;
+  height: 79%;
+  border-right: 3px solid #3f3d56;
+}
+
+.light .project-name {
+  padding: 20px 0 25px 0;
+  font-family: "Product Sans", sans-serif;
+  font-size: 2.3em;
+  color: #353535;
+}
+
+.dark .project-name {
+  padding: 20px 0 25px 0;
+  font-family: "Product Sans", sans-serif;
+  font-size: 2.3em;
+  color: #696791;
+}
+
+#timeline {
+  width: 100%;
+  margin: 30px auto;
+  position: relative;
+}
+
+.timeline-icon i {
+  color: #ffffff;
+  font-size: 2.1em;
+  justify-self: center;
+  align-self: center;
+}
+
+.light small {
+  color: #474559;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.dark small {
+  color: #eeeeee;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.timeline-content-right {
+  display: relative;
+  left: 0;
+  float: right;
+  margin-bottom: 50px;
+  height: auto;
+  width: 95%;
+  color: black;
+}
+
+.light .timeline-content-info {
+  position: relative;
+  top: 8px;
+  border: 1px solid #eeeeee;
+  transition: border 0.5s ease-in-out;
+}
+
+.dark .timeline-content-info {
+  position: relative;
+  top: 8px;
+  border: 1px solid #3f3d56;
+  transition: border 0.5s ease-in-out;
+}
+
+.light .timeline-content-right h2 {
+  position: relative;
+  padding: 15px;
+  background: #eeeeee;
+  color: #484848;
+  font-weight: 300;
+  font-weight: bold;
+  font-family: "Product Sans", sans-serif;
+}
+
+.dark .timeline-content-right h2 {
+  position: relative;
+  padding: 15px;
+  background: black;
+  color: white;
+  font-weight: 300;
+  font-weight: bold;
+  font-family: "Product Sans", sans-serif;
+}
+
+.timeline-content-right p {
+  padding: 22px 20px 10px 20px;
+  font-family: "Product Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #5b5b5b;
+}
+
+.light .cube {
+  top: 50%;
+  left: -7px;
+  position: absolute;
+  transform: translateY(-50%);
+  height: 10px;
+  border-top: 7px solid transparent;
+  border-right: 7px solid #eeeeee;
+  border-bottom: 7px solid transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+.dark .cube {
+  top: 50%;
+  left: -7px;
+  position: absolute;
+  transform: translateY(-50%);
+  height: 10px;
+  border-top: 7px solid transparent;
+  border-right: 7px solid #3f3d56;
+  border-bottom: 7px solid transparent;
+  transition: all 0.5s ease-in-out;
+}

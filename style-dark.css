@@ -1,0 +1,253 @@
+h1,
+h2,
+p,
+a,
+i {
+  transition: all 0.5s ease-in-out !important;
+}
+
+.dark {
+  transition: all 0.5s ease-in-out;
+  background-color: black;
+  height: 100%;
+}
+
+.dark .logo {
+  position: absolute;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.dark .navbar {
+  width: 100%;
+  border-bottom: thin solid rgba(63, 61, 86, 0.3) !important;
+  transition: all 0.5s ease-in-out;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
+  transition: all 0.5s ease-in-out, border 0.1s ease-in-out;
+}
+
+.container > li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.dark .link {
+  color: white;
+  transition: color 0.5s ease-in-out;
+  position: relative;
+}
+
+.dark .link:before {
+  content: attr(data-text);
+  font-weight: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #f7c631;
+  overflow: hidden;
+  width: 0%;
+  transition: 0.5s;
+}
+
+.dark .container a:hover {
+  transition: color 2s;
+  color: black;
+}
+
+.dark .theme button {
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 7px;
+  font-family: "Source Sans Pro";
+  font-size: 1em;
+  font-weight: 20;
+  letter-spacing: 0.6px;
+  transition: all 0.5s ease-in-out;
+}
+
+.dark .theme .far {
+  color: white;
+}
+
+.theme:hover > .far {
+  color: #f7c631;
+}
+
+.dark .about-left p:nth-child(1) {
+  margin-left: 20px;
+  font-family: "Product Sans", sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  transition: all 0.5s ease-in-out;
+}
+
+.dark .about-left p:nth-child(3) {
+  font-family: "Product Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.dark .about-left h1 {
+  margin-top: 20px;
+  font-family: "Product Sans", sans-serif;
+  color: white;
+  font-size: 2.8em;
+  margin: 24px 0;
+}
+
+.dark .resume-btn {
+  background: #3f3d56;
+  width: 180px;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 13px 29px;
+  font-size: 14px;
+  line-height: normal;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  cursor: pointer;
+  font-family: "Product Sans", sans-serif;
+  margin-top: 20px;
+}
+
+.dark .quote-btn {
+  background: #826d19;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-left: 15px;
+  padding: 13px 29px;
+  font-size: 14px;
+  line-height: normal;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  cursor: pointer;
+  font-family: "Product Sans", sans-serif;
+  margin-top: 20px;
+}
+
+.dark .resume-btn:hover {
+  color: #f7c631;
+}
+
+.dark .quote-btn:hover {
+  background-color: #826d19;
+  color: #3f3d56;
+}
+
+.dark .fa-sun {
+  position: relative;
+  left: 15px;
+  opacity: 1;
+  transition: all 0.5s ease-out;
+}
+
+.dark .fa-moon {
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+
+.dark .section2 h1 {
+  color: #696791;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: bold;
+  font-family: "Product Sans", sans-serif;
+}
+
+.dark .prev i {
+  color: white !important;
+}
+
+.dark .next i {
+  color: white !important;
+}
+
+.prev:hover,
+.next:hover {
+  color: #f7c631;
+}
+
+.dark .content1 h1 {
+  font-size: 2.8em;
+  text-align: start;
+  color: white;
+}
+
+.dark .content1 p {
+  width: 280px;
+  font-size: 1.3em;
+  margin: 30px 0 50px 0;
+  color: #5b5b5b;
+  font-family: "Product Sans", sans-serif;
+}
+
+.dark .content1 h2 {
+  position: absolute;
+  font-size: 1.3em;
+  width: 420px;
+  top: 240px;
+  font-family: "Product Sans", sans-serif;
+  color: #696791;
+}
+
+.dark .visit-btn:hover {
+  background-color: #f7c631;
+  color: white;
+}
+
+.dark .form-name-email input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #3f3d56;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: "Product Sans", sans-serif;
+  background-color: black;
+  color: #495057;
+  margin-bottom: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+.dark .form-message textarea {
+  width: 100%;
+  border: 1px solid #3f3d56;
+  background-color: black;
+  color: #495057;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Product Sans", sans-serif;
+  resize: vertical;
+  transition: border 0.5s ease-in-out, background 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.dark .form-elements input:hover,
+.dark .form-elements input:focus {
+  border-color: #ffc200;
+  outline: none;
+}
+
+.dark .form-elements textarea:hover,
+.dark .form-elements textarea:focus {
+  border-color: #ffc200;
+  outline: none;
+}
