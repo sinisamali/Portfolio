@@ -1,4 +1,4 @@
-(function() {
+(function () {
   function validEmail(email) {
     var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
     return re.test(email);
@@ -19,10 +19,10 @@
     var elements = form.elements;
 
     var fields = Object.keys(elements)
-      .filter(function(k) {
+      .filter(function (k) {
         return elements[k].name !== "honeypot";
       })
-      .map(function(k) {
+      .map(function (k) {
         if (elements[k].name !== undefined) {
           return elements[k].name;
           // special case for Edge's html collection
@@ -30,12 +30,12 @@
           return elements[k].item(0).name;
         }
       })
-      .filter(function(item, pos, self) {
+      .filter(function (item, pos, self) {
         return self.indexOf(item) == pos && item;
       });
 
     var formData = {};
-    fields.forEach(function(name) {
+    fields.forEach(function (name) {
       var element = elements[name];
 
       // singular form elements just have one value
@@ -89,7 +89,7 @@
       xhr.open("POST", url);
       // xhr.withCredentials = true;
       xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-      xhr.onreadystatechange = function() {
+      xhr.onreadystatechange = function () {
         console.log(xhr.status, xhr.statusText);
         console.log(xhr.responseText);
         var formElements = form.querySelector(".form-elements");
@@ -104,7 +104,7 @@
       };
       // url encode form data for sending as post data
       var encoded = Object.keys(data)
-        .map(function(k) {
+        .map(function (k) {
           return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
         })
         .join("&");
