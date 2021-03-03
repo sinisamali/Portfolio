@@ -289,12 +289,20 @@
   .section2 h1 {
     font-size: 30px !important;
   }
+
   .borderContainer {
     position: relative;
   }
 
   .helperSpan {
     padding-left: 20px;
+  }
+
+  .border-helper {
+   position: relative;
+   width: 100%;
+   height: 100px;
+   
   }
 
   .rotateGif {
@@ -304,7 +312,8 @@
     align-items: center;
     color: white;
     background: rgba(0, 0, 0, 0.7);
-    left: 22px;
+    left: 22%;
+    bottom:0;
   }
 
   .rotateGif img {
