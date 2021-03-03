@@ -293,6 +293,10 @@
     position: relative;
   }
 
+  .helperSpan {
+    padding-left: 20px;
+  }
+
   .rotateGif {
     position: absolute;
     z-index: 300;
@@ -300,7 +304,7 @@
     align-items: center;
     color: white;
     background: rgba(0, 0, 0, 0.7);
-    left: 24px;
+    left: 22px;
   }
 
   .rotateGif img {
