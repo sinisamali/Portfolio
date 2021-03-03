@@ -25,16 +25,6 @@
     margin-top: 145px;
   }
 
-  .mapouter {
-    width: 370px;
-    height: 300px;
-  }
-
-  .contact-data {
-    width: 370px;
-    height: 175px;
-  }
-
   .jssorb031 {
     position: absolute;
     margin-top: 15px !important;
@@ -93,6 +83,10 @@
 
   .map {
     width: 100% !important;
+  }
+
+  .info {
+    width: 100%;
   }
 
   .mapouter {
@@ -184,9 +178,9 @@
     font-size: 1.2em;
     transition: none !important;
   }
-  
+
   .info {
-    width: 80%
+    width: 100%;
   }
 
   .bar-close .fa-times {
@@ -268,7 +262,7 @@
     width: 100%;
     margin-top: 50px;
     font-size: 14px;
-    height:400px
+    height: 400px;
   }
 
   .about-left p {
@@ -295,9 +289,8 @@
   }
 
   .border-helper {
-   position: relative;
-   left: -50%
-   
+    position: relative;
+    left: -50%;
   }
 
   .rotateGif {
@@ -309,7 +302,7 @@
     background: rgba(0, 0, 0, 0.7);
     left: 68%;
     top: -85px;
-    width: 250px
+    width: 250px;
   }
 
   .rotateGif img {

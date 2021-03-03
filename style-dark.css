@@ -126,6 +126,7 @@ a {
 }
 
 .dark .quote-btn {
+  width: 300px;
   background: #826d19;
   color: white;
   font-weight: bold;

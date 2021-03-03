@@ -572,7 +572,7 @@ a {
   height: 130px;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   margin: 0 auto;
 }
 
@@ -595,7 +595,7 @@ a {
   float: right;
 }
 
-.info a:hover  {
+.info a:hover {
   color: #ffc200;
 }
 
