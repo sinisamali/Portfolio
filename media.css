@@ -308,8 +308,8 @@
     color: white;
     background: rgba(0, 0, 0, 0.7);
     left: -50%;
-    right: 20%;
-    top: 30px;
+    top: -60px;
+    width: 250px
   }
 
   .rotateGif img {
@@ -317,14 +317,14 @@
   }
 
   .spanHelper {
-    padding-left: 18px;
+    padding-right: 18px;
   }
 
   .rotateGif p {
     text-transform: lowercase;
     font-weight: bold;
     color: white;
-    text-align: center;
+    text-align: start;
   }
 
   .timeline-wrapper-left {
