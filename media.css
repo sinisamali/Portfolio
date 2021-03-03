@@ -103,20 +103,6 @@
     width: 100% !important;
   }
 
-  .form {
-    padding: 0;
-    width: 100%;
-  }
-
-  .form-name,
-  .form-email {
-    width: 100% !important;
-  }
-
-  .submit-btn button {
-    width: 100% !important;
-  }
-
   .jssorb031 {
     margin-top: 0 !important;
   }
@@ -198,6 +184,10 @@
     font-size: 1.2em;
     transition: none !important;
   }
+  
+  .info {
+    width: 80%
+  }
 
   .bar-close .fa-times {
     opacity: 1;
@@ -231,7 +221,7 @@
   }
 
   .section2 {
-    padding-top: 100px;
+    padding-top: 70px;
     max-height: 470px;
   }
 
@@ -246,8 +236,8 @@
     margin: 0 auto;
     width: 95%;
     height: auto;
-    max-height: 1250px;
-    padding-bottom: 120px;
+    max-height: 00px;
+    padding-bottom: 100px;
   }
 
   .animated-item {
@@ -278,6 +268,7 @@
     width: 100%;
     margin-top: 50px;
     font-size: 14px;
+    height:400px
   }
 
   .about-left p {
@@ -292,12 +283,31 @@
   .quote-btn {
     position: relative;
     margin-left: 0 !important;
-    bottom: 10px;
     width: 100%;
   }
 
   .section2 h1 {
     font-size: 30px !important;
+  }
+
+  .rotateGif {
+    position: absolute;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    color: white;
+    bottom: -230px;
+    left: 30px;
+  }
+
+  .rotateGif img {
+    width: 70px;
+  }
+
+  .rotateGif p {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
   }
 
   .timeline-wrapper-left {
@@ -309,14 +319,14 @@
   }
 
   .contact-data p {
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
   }
 
   .content2 {
     position: relative;
     margin: 0 auto;
     width: 90%;
-    height: 520px;
+    height: 600px;
   }
   .content2 img {
     position: absolute !important;
@@ -333,6 +343,7 @@
 
   #jssor_1 {
     max-height: 300px !important;
+    top: 100px !important;
   }
 
   .links {
@@ -360,6 +371,9 @@
   .logo {
     padding-left: 10px;
     animation: none;
+  }
+  .info {
+    width: 100%;
   }
 
   .fa-bars {
