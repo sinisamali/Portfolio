@@ -295,19 +295,19 @@
   }
 
   .border-helper {
-   position: absolute;
+   position: relative;
    left: 50%
    
   }
 
   .rotateGif {
-    position: relative;
+    position: absolute;
     z-index: 300;
     display: flex;
     align-items: center;
     color: white;
     background: rgba(0, 0, 0, 0.7);
-    left: -50%;
+    left: -32%;
     top: -85px;
     width: 250px
   }
