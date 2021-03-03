@@ -300,9 +300,7 @@
     align-items: center;
     color: white;
     background: rgba(0, 0, 0, 0.7);
-    width: 320px;
-    left: 90px;
-    bottom: -10px;
+    width: 300px;
   }
 
   .rotateGif img {
