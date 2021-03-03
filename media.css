@@ -294,26 +294,27 @@
     position: relative;
   }
 
-  .helperSpan {
+  /* .helperSpan {
     padding-left: 20px;
-  }
+  } */
 
   .border-helper {
-   position: relative;
-   width: 100%;
+   position: absolute;
    height: 100px;
+   left: 50%
    
   }
 
   .rotateGif {
-    position: absolute;
+    position: relative;
     z-index: 300;
     display: flex;
     align-items: center;
     color: white;
     background: rgba(0, 0, 0, 0.7);
-    left: 20%;
-    bottom:0;
+    left: -50%;
+    right: 20%;
+    top: 30px;
   }
 
   .rotateGif img {
