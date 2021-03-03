@@ -294,13 +294,8 @@
     position: relative;
   }
 
-  /* .helperSpan {
-    padding-left: 20px;
-  } */
-
   .border-helper {
    position: absolute;
-   height: 100px;
    left: 50%
    
   }
@@ -321,8 +316,12 @@
     width: 70px;
   }
 
+  .spanHelper {
+    padding-left: 18px;
+  }
+
   .rotateGif p {
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: bold;
     color: white;
   }
