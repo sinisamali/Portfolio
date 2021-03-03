@@ -324,6 +324,7 @@
     text-transform: lowercase;
     font-weight: bold;
     color: white;
+    text-align: center;
   }
 
   .timeline-wrapper-left {
