@@ -1,4 +1,4 @@
-window.addEventListener("load", function() {
+window.addEventListener("load", function () {
   let textWrapper = document.querySelector(".ml3");
   textWrapper.innerHTML = "Portfolio".replace(
     /\S/g,
@@ -9,7 +9,7 @@ window.addEventListener("load", function() {
     opacity: [0, 1],
     easing: "easeInOutQuad",
     duration: 500,
-    delay: function(el, i) {
+    delay: function (el, i) {
       return 107 * (i + 1);
     }
   });
@@ -20,7 +20,7 @@ window.addEventListener("load", function() {
 
   _("body").style.display = "block";
 
-  setTimeout(function() {
+  setTimeout(function () {
     document.getElementById("gmap_canvas").src =
       "https://maps.google.com/maps?q=Belgrade&t=&z=13&ie=UTF8&iwloc=&output=embed";
   }, 2000);
@@ -45,3 +45,6 @@ window.addEventListener("load", function() {
 
   bar.addEventListener("click", Bar);
 });
+
+
+// pull-request
