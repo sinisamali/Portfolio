@@ -45,6 +45,3 @@ window.addEventListener("load", function () {
 
   bar.addEventListener("click", Bar);
 });
-
-
-// pull-request
